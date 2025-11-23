@@ -31,15 +31,11 @@ public class MathOperations
         System.out.println("\n Unary Operators ");
         int i = ++x;  
         int j = x++; 
-        int preDec = --x;  
-        int postDec = x--; 
+        
         System.out.println("Pre-increment: " + i);
         System.out.println("Post-increment : " + j);
-        System.out.println("Pre-decrement): " + preDec);
-        System.out.println("Post-decrement : " + postDec);
         
         
-
         System.out.println("\n Assignment Operators");
         y += 5; 
         System.out.println("y+= " + y);
